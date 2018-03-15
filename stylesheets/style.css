@@ -174,15 +174,11 @@ header .logo img {
 }
 
 .info {
-<<<<<<< HEAD
   background: #000000;
   line-height: 1.4em;
   color: #ffffff;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   margin-top: -4px;
-=======
-  background-color: #f3f3f3;
->>>>>>> ff9ddea9bd03b9119e055629bf40e2fceac1925d
 }
 
 .This_Box {
