@@ -49,6 +49,18 @@ img {
   flex-grow: 2;
 }
 
+<<<<<<< HEAD
+=======
+.flex-3 {
+  background-color: #f3f3f3;
+  width: 40%;
+}
+.flex-4 {
+  background-color: #f3f3f3;
+  width: 60%;
+}
+
+>>>>>>> ff9ddea9bd03b9119e055629bf40e2fceac1925d
 /* ==========================================
   HEADER & NAVIGATION
 ========================================== */
@@ -162,11 +174,15 @@ header .logo img {
 }
 
 .info {
+<<<<<<< HEAD
   background: #000000;
   line-height: 1.4em;
   color: #ffffff;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   margin-top: -4px;
+=======
+  background-color: #f3f3f3;
+>>>>>>> ff9ddea9bd03b9119e055629bf40e2fceac1925d
 }
 
 .info .curly-text {
@@ -181,9 +197,11 @@ header .logo img {
     font-family: 'Matchmaker', 'Brush Script MT', cursive;
     text-transform: lowercase;
 }
+
 .info .red-text {
   color: #c6a546;
 }
+
 .info .clean-text {
   font-size: 0.9em;
   font-weight: 200;
@@ -193,6 +211,97 @@ header .logo img {
   font-size: 0.4em;
 }
 
-.socialmedia {
+.products {
+  margin: 4em 0;
+}
 
+.product {
+  padding: 0 1em;
+}
+
+.product-container {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  padding: 1em;
+}
+
+.product .product-image {
+  border: 1px solid #eeeeee;
+}
+
+.product .switches {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.product .switches button {
+  background: none;
+  padding: 0;
+  margin: 0;
+  padding: 0.25em;
+  border: none;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
+  outline: none;
+}
+
+.product .switches button.active {
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.8);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.8);
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.8);
+}
+
+.product .switches span {
+  width: 1.5em;
+  height: 1.5em;
+  background: #eeeeee;
+  border-radius: 50%;
+  display: block;
+}
+
+.product h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.product .switches span.green {
+  background: green;
+}
+
+.product .switches span.blue {
+  background: blue;
+}
+
+.product .switches span.red {
+  background: red;
+}
+
+/* ==========================================
+  Footer
+========================================== */
+footer {
+	background: #000000;
+}
+
+.socialmedia {
+  width: 20%;
+  margin: 2em auto;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 300;
+  margin-bottom: 2em;
 }
