@@ -163,6 +163,7 @@ header .logo img {
 
 .info {
   background: #eeeeee;
+  line-height: 1.4em;
 }
 
 .info .curly-text {
@@ -172,12 +173,19 @@ header .logo img {
 }
 
 .info .italic-text {
-    font-style: italic;
     font-weight: bold;
+    font-size: 1.6em;
+    font-family: 'Matchmaker', 'Brush Script MT', cursive;
+}
+.info .red-text {
+  color: #c60600;
 }
 .info .clean-text {
   font-size: 0.9em;
+}
 
+.info .curly-text .superscript {
+  font-size: 0.4em;
 }
 
 .socialmedia {
