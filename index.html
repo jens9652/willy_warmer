@@ -49,54 +49,72 @@
           <img src="images/clothesline.png" alt="Clothesline">
         </div>
         <div class="flex-2">
-          <h1>Willy Warmer™</h1>
-          <p>The Willy Warmer is an exclusive new product for the modern man. Made solely from the highest quality of materials, you’re guaranteed the most luxurious and comfortable penis warmer on the market! With our variety of different Willy Warmers you’ll be the man, you’ve always wanted to be. Give your confidence a boost, join the Willy Club today!</p>
+          <h1><span class="curly-text">The Willy Warmer<sup class="superscript">Tm</sup></span></h1>
+          <p class="clean-text">The Willy Warmer is an exclusive new product for the <span class="italic-text red-text"> modern man.</span> Made solely from the<span class="italic-text red-text"> highest quality</span> of materials, you’re guaranteed the most <span class="italic-text red-text">luxurious</span> and <span class="italic-text red-text">comfortable</span> penis warmer on the market! With our variety of different Willy Warmers you’ll be the man, you’ve always wanted to be. Give your confidence a boost, <span class="italic-text red-text">join the Willy Club today!</span></p>
         </div>
       </div>
 	  </div>
 
-	  <div class="product">
+	  <div class="products">
       <div class="container">
 
         <div class="product">
-          <div class="product-image">
-            <img src="images/product/plaid_red.jpg" alt="Plaid">
+          <h3>Satin</h3>
+          <div class="product-container">
+            <div class="product-image">
+              <img src="images/products/satin_red.jpg" alt="Plaid" id="product-1">
+            </div>
           </div>
           <div class="switches">
-            <button onclick="product.changeColor('red')"><span class="red"></span></button>
-            <button onclick="product.changeColor('green')"><span class="green"></span></button>
-            <button onclick="product.changeColor('blue')"><span class="blue"></span></button>
+            <button onclick="product.changeColor(this, 'red', 1)"><span class="red"></span></button>
+            <button onclick="product.changeColor(this, 'green', 1)"><span class="green"></span></button>
+            <button onclick="product.changeColor(this, 'blue', 1)"><span class="blue"></span></button>
           </div>
         </div>
 
         <div class="product">
-          <div class="product-image">
-            <img src="images/product/plaid_red.jpg" alt="Plaid">
+          <h3>Plaid</h3>
+          <div class="product-container">
+            <div class="product-image">
+              <img src="images/products/plaid_red.jpg" alt="Plaid" id="product-2">
+            </div>
           </div>
           <div class="switches">
-            <button onclick="product.changeColor('red')"><span class="red"></span></button>
-            <button onclick="product.changeColor('green')"><span class="green"></span></button>
-            <button onclick="product.changeColor('blue')"><span class="blue"></span></button>
+            <button onclick="product.changeColor(this, 'red', 2)"><span class="red"></span></button>
+            <button onclick="product.changeColor(this, 'green', 2)"><span class="green"></span></button>
+            <button onclick="product.changeColor(this, 'blue', 2)"><span class="blue"></span></button>
           </div>
         </div>
 
         <div class="product">
-          <div class="product-image">
-            <img src="images/product/plaid_red.jpg" alt="Plaid">
-          </div>
-          <div class="switches">
-            <button onclick="product.changeColor('red')"><span class="red"></span></button>
-            <button onclick="product.changeColor('green')"><span class="green"></span></button>
-            <button onclick="product.changeColor('blue')"><span class="blue"></span></button>
+          <h3>Christmas Edition</h3>
+          <div class="product-container">
+            <div class="product-image">
+              <img src="images/products/christmas_edition.jpg" alt="Plaid" id="product-3">
+            </div>
           </div>
         </div>
 
       </div>
 	  </div>
 
-	  <div class="willybox">
-	  </div>
+    <div class="info">
+      <h1 style="text-align:center; padding-top:5%;">Last Month's Willy Box™</h1>
+	  <div class="omfavn">
+      <div class="flex-3">
+        <h1 style="text-align:center; padding:12%;">THE LUMBERJACK</h1>
+        <p style="text-align:center;" >1 PAIR OF SUNGLASSES <br> 1 COFFEE MUG <br> 1 COMPUTER STICKER <br> 3 PAIRS OF RED WILLY WARMERS </p>
+      </div>
+      <div class="flex-4">
+          <img src="images/lumberjackbox.png" alt="This_Box">
+    </div>
+    </div>
+    </div>
+
     </main>
+    <div class="info">
+      <div class="container">
+	  </div>
 
     <!-- FOOTER -->
     <footer>
