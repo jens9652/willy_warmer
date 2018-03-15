@@ -165,6 +165,21 @@ header .logo img {
   background: #eeeeee;
 }
 
+.info .curly-text {
+  font-family: 'Matchmaker', 'Brush Script MT', cursive;
+  color: #000000;
+  font-size: 1.6em;
+}
+
+.info .italic-text {
+    font-style: italic;
+    font-weight: bold;
+}
+.info .clean-text {
+  font-size: 0.9em;
+
+}
+
 .socialmedia {
 
 }
