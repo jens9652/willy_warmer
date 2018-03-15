@@ -14,6 +14,7 @@ html, body {
 body {
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-size: 100%;
+  line-height: 1.35em;
   padding-top: 4em;
 }
 
@@ -27,8 +28,8 @@ img {
 ========================================== */
 @font-face {
     font-family: 'Matchmaker';
-    src: url('fonts/matchmaker-webfont.woff2') format('woff2'),
-         url('fonts/matchmaker-webfont.woff') format('woff');
+    src: url('../fonts/matchmaker-webfont.woff2') format('woff2'),
+         url('../fonts/matchmaker-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -95,7 +96,6 @@ header .logo img {
   max-width: 29em;
   bottom: 10em;
   left: 10em;
-  text-transform: uppercase;
   color: #ffffff;
 }
 
@@ -154,11 +154,13 @@ header .logo img {
 .hero .curly-text {
   font-family: 'Matchmaker', 'Brush Script MT', cursive;
   color: #c6a546;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  line-height: 1.4em;
 }
 
 .hero .clean-text {
   font-size: 2em;
+  text-transform: uppercase;
 }
 
 .hero .hero-text h1 {
@@ -167,14 +169,23 @@ header .logo img {
   font-size: 1.7em;
   width: 100%;
   margin-top: 3.8em;
+  line-height: 2em;
 }
 
 .info {
-  background: #000000;
-  line-height: 1.4em;
+  background: #191919;
+  line-height: 1.6em;
   color: #ffffff;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   margin-top: -4px;
+}
+
+.info h2 {
+  margin-top: 2em;
+}
+
+.info p {
+  margin-bottom: 6em;
 }
 
 .This_Box {
@@ -188,15 +199,9 @@ header .logo img {
   font-size: 1.6em;
 }
 
-.info .italic-text {
-    font-weight: bold;
-    font-size: 1.9em;
-    font-family: 'Matchmaker', 'Brush Script MT', cursive;
-    text-transform: lowercase;
-}
-
 .info .red-text {
   color: #c6a546;
+  font-weight: bold;
 }
 
 .info .clean-text {
