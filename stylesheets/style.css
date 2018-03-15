@@ -49,6 +49,8 @@ img {
   flex-grow: 2;
 }
 
+<<<<<<< HEAD
+=======
 .flex-3 {
   background-color: #f3f3f3;
   width: 40%;
@@ -58,6 +60,7 @@ img {
   width: 60%;
 }
 
+>>>>>>> ff9ddea9bd03b9119e055629bf40e2fceac1925d
 /* ==========================================
   HEADER & NAVIGATION
 ========================================== */
@@ -171,7 +174,15 @@ header .logo img {
 }
 
 .info {
+<<<<<<< HEAD
+  background: #000000;
+  line-height: 1.4em;
+  color: #ffffff;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  margin-top: -4px;
+=======
   background-color: #f3f3f3;
+>>>>>>> ff9ddea9bd03b9119e055629bf40e2fceac1925d
 }
 
 .This_Box {
@@ -181,22 +192,24 @@ header .logo img {
 
 .info .curly-text {
   font-family: 'Matchmaker', 'Brush Script MT', cursive;
-  color: #000000;
+  color: #c6a546;
   font-size: 1.6em;
 }
 
 .info .italic-text {
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.9em;
     font-family: 'Matchmaker', 'Brush Script MT', cursive;
+    text-transform: lowercase;
 }
 
 .info .red-text {
-  color: #c60600;
+  color: #c6a546;
 }
 
 .info .clean-text {
   font-size: 0.9em;
+  font-weight: 200;
 }
 
 .info .curly-text .superscript {
