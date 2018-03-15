@@ -49,19 +49,6 @@ img {
   flex-grow: 2;
 }
 
-.omfavn {
-  display: flex;
-  width: 100%;
-}
-
-.flex-3 {
-  width: 50%;
-}
-.flex-4 {
-  width: 50%;
-  align; right;
-}
-
 /* ==========================================
   HEADER & NAVIGATION
 ========================================== */
@@ -175,26 +162,31 @@ header .logo img {
 }
 
 .info {
-  background: #eeeeee;
+  background: #000000;
   line-height: 1.4em;
+  color: #ffffff;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  margin-top: -4px;
 }
 
 .info .curly-text {
   font-family: 'Matchmaker', 'Brush Script MT', cursive;
-  color: #000000;
+  color: #c6a546;
   font-size: 1.6em;
 }
 
 .info .italic-text {
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.9em;
     font-family: 'Matchmaker', 'Brush Script MT', cursive;
+    text-transform: lowercase;
 }
 .info .red-text {
-  color: #c60600;
+  color: #c6a546;
 }
 .info .clean-text {
   font-size: 0.9em;
+  font-weight: 200;
 }
 
 .info .curly-text .superscript {
