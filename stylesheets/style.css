@@ -104,7 +104,7 @@ header .logo img {
   left: 0;
   height: 100%;
   width: 51%;
-  background: rgba(0,0,0,0.8);
+  background: #191919;
   -webkit-transform: skew(0deg, 10deg);
   -moz-transform: skew(0deg, 10deg);
   -ms-transform: skew(0deg, 10deg);
@@ -118,7 +118,7 @@ header .logo img {
   right: 0;
   height: 100%;
   width: 50%;
-  background: #000000;
+  background: #000;
   -webkit-transform: skew(0deg, -10deg);
   -moz-transform: skew(0deg, -10deg);
   -ms-transform: skew(0deg, -10deg);
