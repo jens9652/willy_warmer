@@ -178,8 +178,13 @@ header .logo img {
 }
 
 .info {
+<<<<<<< HEAD
   background-color: #f3f3f3;
 
+=======
+  background: #eeeeee;
+  line-height: 1.4em;
+>>>>>>> 76d94df8112d20f08f43387c96f9c163b5da4982
 }
 
 .info .curly-text {
@@ -189,12 +194,19 @@ header .logo img {
 }
 
 .info .italic-text {
-    font-style: italic;
     font-weight: bold;
+    font-size: 1.6em;
+    font-family: 'Matchmaker', 'Brush Script MT', cursive;
+}
+.info .red-text {
+  color: #c60600;
 }
 .info .clean-text {
   font-size: 0.9em;
+}
 
+.info .curly-text .superscript {
+  font-size: 0.4em;
 }
 
 .socialmedia {
