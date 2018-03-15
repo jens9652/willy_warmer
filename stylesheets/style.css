@@ -216,6 +216,13 @@ header .logo img {
   display: block;
 }
 
+.product h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
 .product .switches span.green {
   background: green;
 }
