@@ -50,14 +50,17 @@ img {
 }
 
 .omfavn {
+  background-color: #f3f3f3;
   display: flex;
   width: 100%;
 }
 
 .flex-3 {
+  background-color: #f3f3f3;
   width: 50%;
 }
 .flex-4 {
+  background-color: #f3f3f3;
   width: 50%;
   align; right;
 }
@@ -175,7 +178,8 @@ header .logo img {
 }
 
 .info {
-  background: #eeeeee;
+  background-color: #f3f3f3;
+
 }
 
 .info .curly-text {
