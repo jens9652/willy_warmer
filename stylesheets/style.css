@@ -162,7 +162,7 @@ header .logo img {
 }
 
 .info {
-  background: #eeeeee;
+  background: #efefef;
 }
 
 .products {
@@ -230,4 +230,8 @@ header .logo img {
 
 .socialmedia {
 
+}
+
+.willybox {
+  background: #efefef;
 }
