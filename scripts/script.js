@@ -1,14 +1,15 @@
 var product = {
-  changeColor: function (color, product) {
-    this.findImage(product, function (color) {
-      console.log(image);
-    });
+  changeColor: function (event, color, id) {
+    var productImage = this.findImage(id);
+
+    var src = productImage.getAttribute('src');
+    var newSrc = src.replace(/_.*.jpg/, '_' + color + '.jpg');
+
+    productImage.setAttribute('src', newSrc);
   },
 
   findImage: function (id) {
-    var image = document.getElementById('product-' + id)
-
-
+    return document.getElementById('product-'+id);
   }
 
 }
