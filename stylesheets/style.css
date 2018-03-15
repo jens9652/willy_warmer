@@ -23,6 +23,19 @@ img {
 }
 
 /* ==========================================
+  FONTS
+========================================== */
+@font-face {
+    font-family: 'Matchmaker';
+    src: url('fonts/matchmaker-webfont.woff2') format('woff2'),
+         url('fonts/matchmaker-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700');
+
+/* ==========================================
   LAYOUT CLASSES
 ========================================== */
 
@@ -71,7 +84,76 @@ header .logo img {
   max-width: 29em;
   bottom: 10em;
   left: 10em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.chevron {
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 220px;
+  width: 350px;
+}
+
+.chevron:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 51%;
+  background: rgba(0,0,0,0.8);
+  -webkit-transform: skew(0deg, 10deg);
+  -moz-transform: skew(0deg, 10deg);
+  -ms-transform: skew(0deg, 10deg);
+  -o-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 10deg);
+}
+.chevron:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: #000000;
+  -webkit-transform: skew(0deg, -10deg);
+  -moz-transform: skew(0deg, -10deg);
+  -ms-transform: skew(0deg, -10deg);
+  -o-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg);
+}​
+
+.random {}
+
+.hero-text .willy-icon {
+  height: 3em;
+  z-index: 3;
+  position: absolute;
+  margin-top: 2.2em;
+}
+
+.hero span {
+  display: block;
+  text-align: center;
+}
+
+.hero .curly-text {
+  font-family: 'Matchmaker', 'Brush Script MT', cursive;
+  color: #c6a546;
+  font-size: 0.8em;
+}
+
+.hero .clean-text {
+  font-size: 2em;
 }
 
 .hero .hero-text h1 {
+  position: absolute;
+  z-index: 3;
+  font-size: 1.7em;
+  width: 100%;
+  margin-top: 3.8em;
 }
