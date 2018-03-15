@@ -269,6 +269,29 @@ header .logo img {
   background: red;
 }
 
-.socialmedia {
+/* ==========================================
+  Footer
+========================================== */
+footer {
+	background: #000000;
+  height: auto;
+  height: 200px;
+}
 
+.socialmedia {
+  width: 15%;
+  margin: 5em auto;
+  display: flex;
+  justify-content: center;
+}
+
+<<<<<<< HEAD
+.copyright {
+  color: #ffffff;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+=======
+>>>>>>> 09f3664883af1ff09a671e50a375effc0fd48805
 }
