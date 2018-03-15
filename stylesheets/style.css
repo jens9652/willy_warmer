@@ -274,22 +274,21 @@ header .logo img {
 ========================================== */
 footer {
 	background: #000000;
+  height: auto;
+  height: 200px;
 }
 
 .socialmedia {
-  width: 10%;
-  margin: 2em auto;
-  margin-bottom: 1em;
+  width: 15%;
+  margin: 5em auto;
   display: flex;
   justify-content: center;
 }
 
 .copyright {
   color: #ffffff;
-  display: block;
-  width: 100%;
-  text-align: center;
-  font-size: 0.9em;
-  font-weight: 300;
-  margin-bottom: 2em;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
