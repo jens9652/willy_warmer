@@ -50,14 +50,6 @@ img {
   flex-grow: 2;
 }
 
-.flex-3 {
-  background-color: #f3f3f3;
-  width: 40%;
-}
-.flex-4 {
-  background-color: #f3f3f3;
-  width: 60%;
-}
 /* ==========================================
   HEADER & NAVIGATION
 ========================================== */
@@ -188,11 +180,6 @@ header .logo img {
   margin-bottom: 6em;
 }
 
-.This_Box {
-    background-color: #f3f3f3;
-  }
-}
-
 .info .curly-text {
   font-family: 'Matchmaker', 'Brush Script MT', cursive;
   color: #c6a546;
@@ -286,6 +273,61 @@ header .logo img {
 
 .product .switches span.red {
   background: red;
+}
+
+.box {
+  background: #f1f1f1;
+}
+
+.box h2 {
+  text-align: center;
+  padding-top: 2em;
+  margin: 0;
+}
+
+.box .flex-1 {
+  min-width: 33%;
+  text-align: left;
+  position: relative;
+}
+
+.box h3 {
+  font-family: 'Matchmaker', 'Brush Script MT', cursive;
+  font-size: 1.8em;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.box .text-box {
+  position: absolute;
+  bottom: 6em;
+  right: 0;
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+.box .number {
+  background: #000;
+  width: 1.3em;
+  height: 1.3em;
+  line-height: 1.4em;
+  font-weight: 300;
+  color: #c6a546;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 0.5em;
+}
+
+.box ul li {
+  margin-bottom: 0.25em;
 }
 
 /* ==========================================
