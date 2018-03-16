@@ -63,6 +63,28 @@ header {
   z-index: 10;
 }
 
+header nav {
+  padding-top: 0.4em;
+  width: 50%;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+header nav ul li a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 300;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+  color: #ffffff;
+}
+
 header .logo {
   position: absolute;
   left: 50%;
@@ -72,6 +94,31 @@ header .logo {
 
 header .logo img {
   height: 7em;
+}
+
+.buy-container {
+  width: 50%;
+  text-align: right;
+}
+
+.buy-container .btn {
+  text-transform: uppercase;
+  margin-top: 1em;
+  font-size: 0.9em;
+  border-radius: 0.25em;
+  float: right;
+  background: #191919;
+  padding: 0.5em 1em;
+  border: 0;
+  color: #c6a546;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #444;
+  cursor: pointer;
+}
+
+.buy-container .btn:hover {
+  background: #c6a546;
+  color: #000;
 }
 
 /* ==========================================
